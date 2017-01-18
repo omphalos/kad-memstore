@@ -5,6 +5,7 @@
 'use strict';
 
 var ReadableStream = require('readable-stream');
+var setImmediate = require('timers').setImmediate;
 
 /**
  * Creates an in-memory kad storage adapter
